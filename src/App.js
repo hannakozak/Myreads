@@ -58,7 +58,7 @@ class BooksApp extends Component {
                 <SearchBooks books={ books }  changeShelf= { this.changeShelf } query={ this.query } result={ this.state.result } error={ this.state.error } makeQuery={ this.makeQuery } clearSearch={ this.clearSearch }/>
                )}
              />
-             <Route exact path="/"
+             <Route path="/"
                render={() => (
                  <div className="list-books">
                    <div className="list-books-title">
